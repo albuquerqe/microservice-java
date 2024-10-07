@@ -1,0 +1,22 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: produto-service
+  datasource:
+    url: jdbc:postgresql://localhost/produto_service
+    username: postgres
+    password: postman
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernet:
+      format_sql: true
+  flyway:
+    locations:
+    - classpath:/db_migration
+      
+    

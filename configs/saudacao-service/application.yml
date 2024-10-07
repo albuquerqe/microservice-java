@@ -4,7 +4,6 @@ spring:
     profiles:
       active:
       - es
-            
 saudacao-service:
   saudacao: Hello
   nome-padrao: Word      
