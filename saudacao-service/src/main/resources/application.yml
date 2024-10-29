@@ -19,4 +19,12 @@ management:
         
 saudacao-service:
   saudacao: Hello
-  nome-padrao: Word      
+  nome-padrao: Word    
+
+eureka:
+  client:
+    service-url:
+      defaulzone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+ 
