@@ -13,7 +13,7 @@ spring:
       ddl-auto: none
     show-sql: true
     properties:
-      hibernet:
+      hibernat:
       format_sql: true
   flyway:
     locations:
@@ -28,7 +28,7 @@ management:
 eureka:
   client:
     service-url:
-      defaulzone: http://localhost:8761/eureka
+      defaultZone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true 
     
